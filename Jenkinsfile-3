@@ -7,7 +7,7 @@ pipeline {
         echo 'Hello World'
       }
       post {
-        sucess {
+        success {
           script {
             currentBuild.result = 'FAILURE'
           }
